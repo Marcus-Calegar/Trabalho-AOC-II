@@ -33,3 +33,12 @@ int main() {
 
     return 0;
 }
+
+// -O0
+// Resultado acumulado (controle): 2700000000
+// Tempo total para 100000000 iteracoes: 0.46038600 segundos
+// Tempo medio por iteracao: 0.0000046038600000 ms
+// -O3
+// Resultado acumulado (controle): 2700000000
+// Tempo total para 100000000 iteracoes: 0.03294300 segundos
+// Tempo medio por iteracao: 0.0000003294300000 ms
