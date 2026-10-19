@@ -5,8 +5,8 @@
 int somar_sequencia(void) {
     int total = 0;
     // Em -O0: executa 100 repeticoes a cada chamada
-    // Em -O3: o laco inteiro some e vira 'mov eax, 5050'
-    for (int i = 1; i <= 100; i++) {
+    // Em -O3: o laco inteiro some e vira 'mov eax, 55'
+    for (int i = 1; i <= 10; i++) {
         total += i;
     }
     return total;
